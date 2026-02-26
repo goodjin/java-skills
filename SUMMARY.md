@@ -1,27 +1,24 @@
-# Java Skills 学习总结
+# Java Skills 学习进度
 
 ## 已完成
 
-### 10 个 PRD 文档
-- [x] Spring Boot - Web 框架
-- [x] Dubbo - RPC 框架
-- [x] RocketMQ - 消息队列
-- [x] ShardingSphere - 分库分表
-- [x] SkyWalking - APM
-- [x] Redisson - Redis
-- [x] Hutool - 工具库
-- [x] Guava - 工具库
-- [x] MyBatis-Plus - ORM
-- [x] JeecgBoot - 低代码
+### 1. Spring Boot ✅
+- [x] Clone 源码
+- [x] 分析自动配置原理
+- [x] 更新 Skills 文档
 
-### Skills 文档
-- [x] Web开发: 自动配置、RESTful
-- [x] 分布式: RPC、分布式事务
-- [x] 数据库: 分库分表
-- [x] 工具类: Hutool
-- [x] 架构设计: 设计模式
+### 2. Dubbo ✅  
+- [x] Clone 源码
+- [x] 分析 RPC 核心接口
+- [x] 更新 Skills 文档
 
-### 待完成
-- [ ] 项目 Demo 实现
-- [ ] 对比源码深入学习
-- [ ] 更多最佳实践
+### 3. RocketMQ ⏳
+- [x] Clone 源码
+- [ ] 分析消息队列核心
+
+### 4-10. 其他项目 ⏳
+等待继续...
+
+## 当前进度
+- 10 个项目中 2 个已完成深入分析
+- 8 个项目待分析
