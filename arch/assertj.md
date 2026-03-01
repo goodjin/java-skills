@@ -1,0 +1,67 @@
+# assertj
+
+## 项目简介
+# AssertJ - Fluent Assertions for Java [![Maven Central](https://img.shields.io/maven-central/v/org.assertj/assertj-core.svg?label=Maven%20Central)](https://central.sonatype.com/artifact/org.assertj/assertj-core) [![Javadocs](https://www.javadoc.io/badge/org.assertj/assertj-core.svg)](https://www.javadoc.io/doc/org.assertj/assertj-core)
+
+[![CI](https://github.com/assertj/assertj/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/assertj/assertj/actions/workflows/main.yml?query=branch%3Amain)
+[![Binary Compatibility](https://github.com/assertj/assertj/actions/workflows/binary-compatibility.yml/badge.svg?branch=main)](https://github.com/assertj/assertj/actions/workflows/binary-compatibility.yml?query=branch%3Amain)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=joel-costigliola_assertj-core&metric=alert_status)](https://sonarcloud.io/dashboard?id=joel-costigliola_assertj-core)
+
+AssertJ provides a rich and intuitive set of strongly-typed assertions to use for unit testing (with JUnit, TestNG or any other test framework).
+
+* [AssertJ's Goals](#assertjs-goals)
+* [Quick start](https://assertj.github.io/doc/#assertj-core-quick-start)
+* [Documentation](https://assertj.github.io/doc/#assertj-core)
+* [Want to Contribute?](#want-to-contribute)
+
+You can ask questions in [**stackoverflow (assertj tag)**](https://stackoverflow.com/questions/tagged/assertj?mixed=1) and make suggestions by simply creating an issue.
+
+## Sponsors
+
+<a href="https://www.testmuai.com/?utm_medium=sponsor&utm_source=assertj" target="_blank"><img width="202" height="100" style="vertical-align: middle;" alt="TestMu AI" src="https://github.com/user-attachments/assets/6437eddd-da98-4246-b2af-ebe573f3735d" />
+
+## AssertJ's Goals
+
+AssertJ's ambition is to provide a rich and intuitive set of strongly-typed assertions for unit testing.
+
+The idea is that disposal assertions should be specific to the type of the objects we are checking when writing unit tests. If you're checking the value of a `String`, you use String-specific assertions. Checking the value of a `Map`? Use Map-specific assertions to easily check the contents of the map.
+
+AssertJ's assertions are super easy to use: just type **`assertThat(underTest).`** and use code completion to show you all assertions available.
+
+Assertion missing? Please [create an issue](https://github.com/assertj/assertj/issues) to discuss it and even better [contribute to the project](https://github.com/assertj/assertj/blob/main/CONTRIBUTING.md)!
+
+
+AssertJ is composed of several modules:
+* A **core module** to provide assertions for JDK types (`String`, `Iterable`, `Stream`, `Path`, `File`, `Map`...) - see [AssertJ Core documentation](https://assertj.github.io/doc/#assertj-core-assertions-guide) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-core/latest/index.html).
+* A **Guava module** to provide assertions for Guava types (`Multimap`, `Optional`...) - see [AssertJ Guava documentation](https://assertj.github.io/doc/#assertj-guava) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-guava/latest/index.html).
+* A **[Joda Time module](https://github.com/assertj/assertj-joda-time#readme)** to provide assertions for Joda Time types (`DateTime`, `LocalDateTime`) - see [AssertJ Joda Time documentation](https://joel-costigliola.github.io/assertj/assertj-joda-time.html) and  [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-joda-time/latest/index.html).
+* A **[Neo4J module](https://github.com/joel-costigliola/assertj-neo4j#readme)** to provide assertions for Neo4J types (`Path`, `Node`, `Relationship`...) - see [AssertJ Neo4J documentation](https://joel-costigliola.github.io/assertj/assertj-neo4j.html) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-neo4j/latest/index.html).
+* A **[DB module](https://github.com/assertj/assertj-db#readme)** to provide assertions for relational database types (`Table`, `Row`, `Column`...) - see [AssertJ DB documentation](https://assertj.github.io/doc/#assertj-db) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-db/latest/index.html).
+* A **[Swing module](https://github.com/assertj/assertj-swing#readme)** provides a simple and intuitive API for functional testing of Swing user interfaces - see [AssertJ Swing documentation](https://joel-costigliola.github.io/assertj/assertj-swing.html) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-swing/latest/index.html).
+
+## Want to Contribute?
+
+## 整体架构描述
+
+
+## 核心模块划分
+AssertJ is composed of several modules:
+* A **core module** to provide assertions for JDK types (`String`, `Iterable`, `Stream`, `Path`, `File`, `Map`...) - see [AssertJ Core documentation](https://assertj.github.io/doc/#assertj-core-assertions-guide) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-core/latest/index.html).
+* A **Guava module** to provide assertions for Guava types (`Multimap`, `Optional`...) - see [AssertJ Guava documentation](https://assertj.github.io/doc/#assertj-guava) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-guava/latest/index.html).
+* A **[Joda Time module](https://github.com/assertj/assertj-joda-time#readme)** to provide assertions for Joda Time types (`DateTime`, `LocalDateTime`) - see [AssertJ Joda Time documentation](https://joel-costigliola.github.io/assertj/assertj-joda-time.html) and  [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-joda-time/latest/index.html).
+* A **[Neo4J module](https://github.com/joel-costigliola/assertj-neo4j#readme)** to provide assertions for Neo4J types (`Path`, `Node`, `Relationship`...) - see [AssertJ Neo4J documentation](https://joel-costigliola.github.io/assertj/assertj-neo4j.html) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-neo4j/latest/index.html).
+* A **[DB module](https://github.com/assertj/assertj-db#readme)** to provide assertions for relational database types (`Table`, `Row`, `Column`...) - see [AssertJ DB documentation](https://assertj.github.io/doc/#assertj-db) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-db/latest/index.html).
+* A **[Swing module](https://github.com/assertj/assertj-swing#readme)** provides a simple and intuitive API for functional testing of Swing user interfaces - see [AssertJ Swing documentation](https://joel-costigliola.github.io/assertj/assertj-swing.html) and [javadoc](https://www.javadoc.io/doc/org.assertj/assertj-swing/latest/index.html).
+
+## Want to Contribute?
+
+You are encouraged to contribute any missing useful assertions. 
+
+Please read the [contributing section](https://github.com/assertj/assertj/blob/main/CONTRIBUTING.md) and raise a PR!
+
+## 技术选型
+- 构建工具: Maven
+- 主要语言: Java
+
+## 与PRD的对应关系
+参见项目官方文档

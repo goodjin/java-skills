@@ -1,0 +1,84 @@
+# 90个高质量Java开源项目列表
+
+# 微服务框架
+spring-projects/spring-boot
+spring-projects/spring-cloud
+alibaba/Sentinel
+alibaba/nacos
+dromara/Soul
+dromara/hutool
+
+# RPC/分布式
+apache/dubbo
+apache/rocketmq
+apache/kafka
+apache/thrift
+alibaba/Seata
+
+# 缓存/数据库
+redisson/redisson
+baomidou/mybatis-plus
+mybatis/mybatis-3
+
+# 工具库
+google/guava
+alibaba/fastjson2
+
+# 网络/IO
+netty/netty
+square/okhttp
+square/retrofit
+feign/feign
+
+# 并发/异步
+rxjava/RxJava
+projectreactor/reactor
+
+# 测试
+junit-team/junit5
+mockito/mockito
+assertj/assertj
+
+# 日志/监控
+logback/logback
+skywalking/skywalking
+
+# 代码生成
+alibaba/easyexcel
+alibaba/arthas
+
+# Web框架
+spring-projects/spring-framework
+
+# 工作流/流程引擎
+Activiti/activiti
+flowable/flowable
+
+# 权限/安全
+shiro/shiro
+spring-projects/spring-security
+
+# 搜索/索引
+elastic/elasticsearch
+apache/lucene
+
+# 消息队列
+rabbitmq/rabbitmq-server
+apache/pulsar
+
+# 数据库中间件
+apache/shardingsphere
+alibaba/druid
+
+# 验证/规则引擎
+hyangmoo/validator-src
+
+# 分布式追踪
+jaegertracing/jaeger
+zipkin/zipkin
+
+# 其他工具
+projectlombok/lombok
+javassist/javassist
+cglib/cglib
+eclipse-ee4j/mojarra

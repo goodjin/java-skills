@@ -1,0 +1,24 @@
+# spring-data-jpa
+
+## 核心类和接口
+
+EnversRevisionEntityInformation
+EnversRevisionRepository<T,
+EnversRevisionRepositoryFactoryBean<T
+EnversRevisionRepositoryImpl<T,
+ReflectionRevisionEntityInformation
+
+## 主要设计模式
+
+- 观察者模式: 未明显发现
+- 建造者模式: 未明显发现
+- 工厂模式: EnableEnversRepositories,EnversRevisionRepositoryFactoryBean,EnversRevisionRepositoryImpl
+- 策略模式: EnableEnversRepositories
+- 装饰器模式: 未明显发现
+- 单例模式: EnversRevisionRepositoryFactoryBean,EnversRevisionRepositoryImpl,DefaultRevisionEntityInformation
+
+## 代码技巧亮点
+
+- 高性能设计
+- 并发优化
+- 内存优化

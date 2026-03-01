@@ -1,0 +1,156 @@
+# 90个高质量Java开源项目列表
+# 格式: 项目名,GitHub仓库
+
+# 微服务框架
+spring-projects/spring-boot
+spring-projects/spring-cloud
+alibaba/Sentinel
+alibaba/nacos
+dromara/Soul
+dromara/hutool
+
+# RPC/分布式
+apache/dubbo
+apache/rocketmq
+apache/kafka
+apache/thrift
+alibaba/Seata
+
+# 缓存/数据库
+alibaba/Redisson
+redisson/redisson
+baomidou/mybatis-plus
+mybatis/mybatis-3
+querydsl/querydsl
+Ehcache/ehcache.org-site
+
+# 工具库
+google/guava
+alibaba/fastjson
+alibaba/fastjson2
+basepom/guava
+jodd-pro/jodd
+vavr-jodd/vavr
+
+# 网络/IO
+netty/netty
+undertow-io/undertow
+jetty-project/jetty.project
+apache/httpcomponents
+square/okhttp
+square/retrofit
+feign/feign
+
+# 并发/异步
+akka/akka
+rxjava/RxJava
+projectreactor/reactor
+disruptor/disruptor
+
+# 测试
+junit-team/junit5
+mockito/mockito
+powermock/powermock
+assertj/assertj
+hamcrest/JavaHamcrest
+
+# 日志/监控
+slf4j/slf4j
+log4j/log4j
+logback/logback
+skywalking/skywalking
+prometheus/prometheus
+grafana/grafana
+
+# 模板/代码生成
+velocity-engine/velocity-engine
+freemarker/freemarker
+mybatis/dynamic-sql
+alibaba/easyexcel
+alibaba/arthas
+
+# Web框架
+jakartaee/servlet
+spring-projects/spring-framework
+playframework/playframework
+jfinal/jfinal
+roncoo/roncoo-jwt
+
+# 工作流/流程引擎
+Activiti/activiti
+flowable/flowable
+camunda/camunda-bpm-platform
+
+# 任务调度
+quartz-scheduler/quartz
+xxl-job/xxl-job
+alibaba/spring-boot-starter-quartz
+
+# 权限/安全
+shiro/shiro
+spring-projects/spring-security
+jwtk/jjwt
+bcgit/bc-java
+
+# 缓存/分布式协调
+alibaba/canal
+alibaba/otter
+apache/zookeeper
+Netflix/eureka
+Netflix/zuul
+Netflix/hystrix
+alibaba/Sentinel
+
+# 搜索/索引
+elastic/elasticsearch
+apache/lucene
+apache/solr
+dromara/maxkey
+
+# 消息队列
+apache/activemq
+rabbitmq/rabbitmq-server
+apache/pulsar
+
+# 容器/云原生
+docker/docker-ce
+kubernetes/kubernetes
+helm/helm
+istio/istio
+
+# 数据库中间件
+apache/shardingsphere
+apache/incubator-shenyu
+baomidou/baomidou-dynamic-datasource
+alibaba/druid
+
+# 验证/规则引擎
+hyangmoo/validator-src
+alibaba/easy-rules
+mail-archive/rulest
+
+# 图表/报表
+echarts/echarts
+java-echarts/jecharts
+yuping77/chartx
+
+#  Office/文档
+poi apache/poi
+itext/itext7
+alibaba/fastexcel
+bobigo/ bobigo-doc
+
+# 分布式追踪
+jaegertracing/jaeger
+zipkin/zipkin
+apache/skywalking
+
+# 其他工具
+lombok-project/lombok
+projectlombok/lombok
+javassist/javassist
+cglib/cglib
+_BYTE-BUDDY/byte-buddy
+asm-commons/asm
+sonatype-oss/sonatype-oss-parent
+

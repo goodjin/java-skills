@@ -1,0 +1,70 @@
+# rest-assured
+
+## 项目简介
+![REST Assured](rest-assured-logo-green.png)
+
+[![Build Status](https://github.com/rest-assured/rest-assured/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/rest-assured/rest-assured/actions/workflows/ci.yml)
+[![Maven Central](https://maven-badges.sml.io/sonatype-central/io.rest-assured/rest-assured/badge.svg)](https://central.sonatype.com/artifact/io.rest-assured/rest-assured)
+<!-- [![Javadoc](https://javadoc-badge.appspot.com/io.rest-assured/rest-assured.svg)](http://www.javadoc.io/doc/io.rest-assured/rest-assured) -->
+
+
+Testing and validation of REST services in Java is harder than in dynamic languages 
+such as Ruby and Groovy. REST Assured brings the simplicity of using these 
+languages into the Java domain.
+
+
+## News
+* 2026-01-16: REST Assured 5.5.7 is released with backported support for Spring framework 7 MockMvc support. See [change log](https://raw.githubusercontent.com/rest-assured/rest-assured/master/changelog.txt) for more details.
+* 2025-12-12: REST Assured 6.0.0 is released. It raises the baseline to Java 17+, upgrades to Groovy 5, adds Spring 7 + Jackson 3 support (and bumps minimum versions for Spring/Yasson/Johnzon). See [release notes](https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes60) and [change log](https://raw.githubusercontent.com/rest-assured/rest-assured/master/changelog.txt) for more details.
+* 2025-08-15: REST Assured 5.5.6 is released with bug fixes and minor improvements. See [change log](https://raw.githubusercontent.com/rest-assured/rest-assured/master/changelog.txt) for more details.
+
+[Older News](https://github.com/rest-assured/rest-assured/wiki/OldNews)
+
+
+## Examples
+Here's an example of how to make a GET request and validate the JSON or XML response:
+
+```java
+get("/lotto").then().assertThat().body("lotto.lottoId", equalTo(5));
+```
+
+Get and verify all winner ids:
+
+```java
+get("/lotto").then().assertThat().body("lotto.winners.winnerId", hasItems(23, 54));
+```
+
+Using parameters:
+
+```java
+given().
+    param("key1", "value1").
+    param("key2", "value2").
+when().
+
+## 整体架构描述
+
+
+## 核心模块划分
+* [Rest AssuredMockMvc Javadoc](http://static.javadoc.io/io.rest-assured/spring-mock-mvc/5.5.6/io/restassured/module/mockmvc/RestAssuredMockMvc.html)
+* [XmlPath Javadoc](http://static.javadoc.io/io.rest-assured/xml-path/5.5.6/io/restassured/path/xml/XmlPath.html)
+* [JsonPath Javadoc](http://static.javadoc.io/io.rest-assured/json-path/5.5.6/io/restassured/path/json/JsonPath.html)
+* [Release Notes](https://github.com/rest-assured/rest-assured/wiki/ReleaseNotes)
+* [FAQ](https://github.com/rest-assured/rest-assured/wiki/FAQ)
+
+## Support and discussion
+Join the mailing list at our [Google group](http://groups.google.com/group/rest-assured). 
+
+## Links
+* [Change log](https://github.com/rest-assured/rest-assured/raw/master/changelog.txt)
+* REST Assured on [openhub](https://www.openhub.net/p/rest-assured)
+* [Mailing list](http://groups.google.com/group/rest-assured) for questions and support
+
+<a href="https://www.buymeacoffee.com/johanhaleby" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-blue.png" alt="Buy Me A Coffee" style="height: 42px !important;width: 180px !important;" height="42px" width="180px"></a>
+
+## 技术选型
+- 构建工具: Maven
+- 主要语言: Java
+
+## 与PRD的对应关系
+参见项目官方文档
